@@ -1,0 +1,73 @@
+package Exercise1;
+
+public class rectangleComputation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+     
+		// Print the area and perimeter of a rectangle given its length and width 
+	 
+		double length = 4.2;
+		double width = 6.0;
+		double area;
+		double perimeter;
+		
+		
+		area = length * width;
+		perimeter = (length +length + width + width);
+		
+		
+		System.out.printf("The Area of Rectangular is: %.2f" , area);
+		System.out.print("\nThe Perimeter of Rectangular is:" + perimeter);
+		
+		
+	
+		
+		
+		
+		
+		
+		
+	}
+
+}
+
+
+package Exercise1;
+
+public class cylinderComputation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    
+	    // Print the surface area, base area and volume of a cylinder given its radious and height.
+
+	    double radius = 3.0;
+	    double height = 6.0;
+	    double surfaceArea;
+	    double baseArea;
+	    double Volume;
+	    final double PI = 3.14159265; // Declare as "final" to specify that its value cannot be changed (i.e. constant).
+	    
+	    surfaceArea = (2.0 * PI * (radius*radius)) + (2.0 * PI * radius* height);
+	    baseArea = PI*(radius*radius);
+	    Volume = baseArea*height;
+	    
+	    System.out.printf("The Surface Area of Cylinder is:%.2f" , surfaceArea);
+	    System.out.printf("\nThe Base Area of Cylinder is:%.2f" , baseArea);
+	    System.out.printf("\nThe Volume of Cylinder is:%.2f" , Volume);
+	    
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+	
+
+}
+
+
